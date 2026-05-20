@@ -7,6 +7,7 @@ import routerPath from "../src/routingPath.json";
 import SideBar from "./components/SIdeBar/SideBar";
 import MultiTabs from "./components/multiTabs/MultiTabs";
 import Pagination from "./components/pagination/Pagination";
+import CinematicHero from "./components/Signature/CinematicHero";
 import "./App.css";
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Route path={routerPath.sideBar} element={<SideBar />} />
         <Route path={routerPath.multiTabs} element={<MultiTabs />} />
         <Route path={routerPath.pagination} element={<Pagination />} />
+        <Route path={routerPath.signature} element={<CinematicHero />} />
       </Routes>
     </BrowserRouter>
 

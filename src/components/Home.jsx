@@ -13,6 +13,7 @@ function Home() {
         <Cards endPoint="/progress" header="Open Progress Bar" />
         <Cards endPoint="/form" header="Open Multi Step Form" />
         <Cards endPoint="/pagination" header="Open Pagination" />
+        <Cards endPoint="/signature" header="Open signature" />
       </div>
     </div>
   );

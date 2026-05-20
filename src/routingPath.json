@@ -3,5 +3,6 @@
   "progress": "/progress",
   "sideBar": "/sideBar",
   "multiTabs":"/multiTabs",
-  "pagination":"/pagination"
+  "pagination":"/pagination",
+  "signature":"/signature"
 }
